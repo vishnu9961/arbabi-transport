@@ -5785,7 +5785,7 @@ input.main-search-input::placeholder {
   z-index: 9;
 }
 .service-card-items .items-shape {
-  position: absolute;
+  position: absolute; 
   bottom: 0;
   left: 0;
   right: 0;
@@ -5868,6 +5868,9 @@ input.main-search-input::placeholder {
 }
 .service-card-items:hover .content p {
   border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  color: var(--white);
+}
+.service-card-items:hover .content ul li{
   color: var(--white);
 }
 .service-card-items:hover .content .link-btn {
